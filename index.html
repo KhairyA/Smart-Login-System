@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+<div id="screen-login">
+  <div class="d-flex justify-content-center">
+    <div class="w-75 form-input mt-5 p-5">
+      <h1 >Smart Login System</h1>
+      <input id="email-login" type="email" class="form-control w-75 mt-3" placeholder="Enter Your email">
+      <input id="pass-login" type="password" class="form-control w-75 mt-3" placeholder="Enter Your Password">
+      <span id="span-red3" class="span-red pt-3 d-none">incorrect in password or email</span>
+      
+      <button onclick="enterUser()" class="btn btn-outline-info w-75 mt-3">Login</button>
+      <p class="pt-2">Don’t have an account? <a onclick="SignUp()" class="a-pargraph">Sign Up</a></p>
+    </div>
+  </div>
+</div>
+<div id="screen-user-enter" class="d-none">
+  <div class="d-flex justify-content-center">
+    <div class="w-75 form-input mt-5 p-5">
+      <h1 >Smart Login System</h1>
+      <input id="name-signup" type="text" class="form-control w-75 mt-3" placeholder="Enter Your Name">
+      <input id="email-signup" type="email" class="form-control w-75 mt-3" placeholder="Enter Your Email">
+      <input id="pass-signup" type="password" class="form-control w-75 mt-3" placeholder="Enter Your Password">
+      <span id="span-red1" class="span-red pt-3 d-none">All inputs is required</span>
+      <span id="span-red2" class="span-red pt-3 d-none">email already exists</span>
+      <span id="span-red4" class="span-red pt-3 d-none">There Is Input Is In Valid</span>
+      <span id="span-green1" class="span-green pt-3 d-none">Success</span>
+      <button onclick="addUser()" type="button" class="btn btn-outline-info w-75 mt-3">Sign Up</button>
+      <p class="pt-2">You have an account? <a onclick="login()" class="a-pargraph">Sign in</a></p>
+    </div>
+  </div>
+</div>
+<div id="user-welcome" class="d-none">
+<div class="welcome-user">
+  <nav class="navbar navbar-expand-lg  fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SMART LOGIN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="logoutUser()">Log out</a>
+          </li>
+          
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <div class="w-75  p-5 form-input2">
+   <h1 id="user-name"></h1>
+
+  </div>
+</div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>

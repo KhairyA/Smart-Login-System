@@ -1,0 +1,136 @@
+#screen-login{
+background-color: #24353F;
+height: 100vh;
+padding: 1px;
+
+}
+.form-input{
+
+    box-shadow: 3px 3px 30px rgb(27, 26, 26);
+   display: flex;
+   flex-flow: column ;
+   align-items: center;
+}
+.form-input h1{
+    color: 
+    #17A2B8;
+    font-family: 
+    "Titillium Web",
+    sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+}
+.form-control{
+    background-color: transparent;
+    border-radius: 3px;
+    color:white;
+}
+.form-input p{
+    color: #fff;
+    font-family: 
+    "Titillium Web",
+    sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+}
+#screen-user-enter{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-color: #24353F;
+    padding: 1px;
+}
+
+.span-red{
+    color: 
+    #DC3545;
+    font-family: 
+    "Titillium Web",
+    sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.span-green{
+    color: 
+    #28A745;
+    font-family: 
+    "Titillium Web",
+    sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+#user-welcome{
+    background-color: #24353F;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+padding: 1px;
+}
+.form-input2 h1{
+    color: 
+    #17A2B8;
+    font-family: 
+    "Titillium Web",
+    sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+}
+.form-input2{
+    box-shadow: 3px 3px 30px rgb(27, 26, 26);
+   display: flex;
+   flex-flow: column ;
+   align-items: center;
+   
+}
+.a-pargraph{
+    text-decoration: none;
+    color: #fff;
+    font-family: 
+    "Titillium Web",
+    sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.a-pargraph:hover{
+    border-bottom: 1px white solid;
+
+}
+.navbar{
+    background-color: #24353F;
+    box-shadow: 3px 3px 30px rgb(27, 26, 26);
+}
+.welcome-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navbar a{
+   color: #fff;
+   font-family: 
+   "Titillium Web",
+   sans-serif;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 400;
+}
+.nav-link{
+    border: yellow 1px solid;
+}
+.nav-link:hover{
+    background-color: yellow;
+}
+
